@@ -24,6 +24,7 @@ createOrder(cart, (orderId) => {
 //     proceedToPayment(orderId);
 //     });
 
+
 function createOrder(cart, callback) {
     if (cart.length > 0) {
         return callback(true)
